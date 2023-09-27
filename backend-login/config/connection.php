@@ -3,8 +3,8 @@
 // Validate the credentials in the database, or in other data store.
 // Codigo para validar credenciales
 $hostname = "localhost";
-$username = "loginapp_user";
-$password = "test1234";
+$username = "root";
+$password = "";
 $database = "loginapp";
 
 $conexion = new mysqli($hostname, $username, $password, $database);
